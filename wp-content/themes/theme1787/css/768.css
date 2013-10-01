@@ -1,0 +1,237 @@
+/* #Tablet (Portrait)
+================================================== */
+/* Note: Design for a width of 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+
+.content-box {max-width:780px;}
+.textwidget ul {padding:11px 0 0 0px;}
+
+
+/*----------------------------------------
+				Slider
+---------------------------------------- */
+#slider-wrapper {height:460px;}
+.camera_caption > div {
+	padding: 17px 0px 0px 47px;
+	width:400px;
+}
+	.camera_caption > div h2 {
+		font-size:50px;
+		line-height:56px!important;
+		margin:0 0 -4px 0;
+	}
+	.camera_caption > div h3 {margin:0 0 20px 0;}
+	.camera_caption > div p {margin:0 0 20px 0;}
+	
+.camera_wrap .camera_pag {bottom:75px; left:45px;}
+
+/*----------------------------------------
+			Request a quote
+---------------------------------------- */
+.box-content {padding:27px 15px 31px 15px;}
+.box-title {padding:7px 0px 0 3px;}
+
+.icon-holder {margin:0 5px 0 0px;}
+
+.box-title h3 {
+	font-size:13px;
+	line-height:19px!important;
+	padding-top:5px;
+	margin-bottom:-1px;
+}
+.box-title .subtitle {
+	font-size:11px;
+	line-height:17px;
+}
+
+/*----------------------------------------
+				Portfolio
+---------------------------------------- */
+/* Default layout 3 columns */
+#gallery .portfolio li {
+	width:236px;
+	margin:0 16px 40px 0;
+}
+	#gallery .portfolio li a.image-wrap {
+		width:236px;
+		height:134px;
+	}
+	#gallery .portfolio li a.image-wrap img {
+		width:100%;
+		height:auto;
+	}
+
+/* 1 column portfolio*/
+#gallery.one_column .portfolio li a.image-wrap {
+	width:405px;
+	height:225px;
+	float:left;
+	margin:5px 20px 5px 0px;
+}
+	#gallery.one_column .folio-desc {
+		overflow:hidden;
+		padding:0px 0px 0 0;
+	}
+	#gallery.one_column .button {display:none;}
+		
+/* 2 columns portfolio*/
+#gallery.two_columns .portfolio li {
+	width:364px;
+	margin-right:16px;
+}
+	#gallery.two_columns .portfolio li a.image-wrap {
+		width:364px;
+		height:205px;
+	}
+
+/* 4 columns portfolio*/
+#gallery.four_columns .portfolio li {
+	width:172px;
+	margin-right:16px;
+}
+	#gallery.four_columns .portfolio li a.image-wrap {
+		width:172px;
+		height:102px;
+	}
+
+/*----------------------------------------
+			Top Content
+---------------------------------------- */
+.top-content {padding:22px 10px 3px 19px;}		
+	.top-content h2 span {font-size:26px;}
+	
+/*---------------------------------------- 
+				Price List
+---------------------------------------- */
+.price-list ul {padding:9px 0px 0 0; margin:0;}
+
+/*----------------------------------------
+				 Post
+---------------------------------------- */
+.single .post-holder {padding:0 0px 0 0;}
+
+.featured-thumbnail.large, .featured-thumbnail.large img {
+	width:100%;
+	height:auto;
+}
+	
+/* Flickr widget */
+.flickrImages a {
+	width:58px;
+	height:58px;
+}
+
+.frame.alignleft img,
+.frame.alignright img,
+.frame.alignnone img	{
+	width:100% !important;
+	height:auto !important;
+}
+
+/* SlidesJS */
+.slides_container {
+	width:224px;
+}
+.slides_container .item {
+	width:224px;
+	height:170px;
+}
+	.slides_container .item .featured-thumbnail {
+		float:none;
+		margin-right:0;
+		overflow:hidden;
+	}
+		.slides_container .item .featured-thumbnail img {
+			width:100%;
+			height:auto;
+		}
+
+/*----------------------------------------
+			Recent Post Team
+---------------------------------------- */
+.recent-posts.team li {width:162px;}
+.recent-posts.team li .featured-thumbnail {
+	width:162px;
+	height:auto;
+	overflow:hidden;
+}
+.recent-posts.team li .featured-thumbnail img {
+	width:100%;
+	height:auto;
+}
+/* Address */
+.address dt {
+	width:135px;
+	margin-right:10px;
+	padding:0 0 0 55px;
+	font-size:11px;
+}
+.address dd {
+	width:195px;
+	padding:0 0 0 43px;
+}
+	.address dd span {width:80px;}
+
+/* Google Map */
+.google-map {
+	position: relative;
+	padding-bottom: 46.25%;
+	height: 0;
+	overflow: hidden;
+	margin:0 0 2% 0;
+}
+.google-map iframe,  
+.google-map object,  
+.google-map embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+/* Post Formats
+---------------------------------------- */
+
+/* Image Post Format */
+.image-post-format img {
+	width:100%;
+	overflow:hidden;
+}	
+
+/* Gallery Post Format */
+.slides_container_gallery {
+	width:534px;
+	height:270px;
+}
+	.slides_container_gallery .g_item {
+		width:534px;
+	}
+	
+	
+	
+/* Comment Form */
+.commentlist ul.children {margin-left:0;}	
+
+	
+/*----------------------------------------
+				Sidebar
+---------------------------------------- */
+#searchform .searching {width:130px;}
+
+/*----------------------------------------
+				Footer
+---------------------------------------- */
+.vcard .tel {margin-left:29px;}
+.vcard .email{margin-left:29px;}
+
+nav.footer {
+	float:left;
+	padding:0;
+	margin:0 0 10px 0;
+}
+nav.footer ul li {margin:0 15px 0 0px;}
+	
+}

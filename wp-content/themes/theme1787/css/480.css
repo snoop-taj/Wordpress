@@ -1,0 +1,188 @@
+/* #Mobile (Landscape)
+================================================== */
+/* Note: Design for a width of 480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+.content-box {max-width:440px;}
+
+/* Logo */
+.logo {padding:0;}
+.logo img{
+	width:190px;
+	height:auto;
+}
+.logo h1,
+.logo h2 {
+	font-size:22px;
+	line-height:26px!important;
+}
+
+/*----------------------------------------
+				Slider
+---------------------------------------- */
+#slider-wrapper {height:264px;}
+
+/*---------------------------------------- 
+				Navigations
+---------------------------------------- */
+
+/* Primary navigation */
+nav.primary {
+	clear:both;
+	width:100%;
+	margin:0;
+	text-align:center;
+	padding:13px 0;
+}
+
+/*----------------------------------------
+			Widget Header
+---------------------------------------- */
+.widget-header ul li, .widget-header ul li a {
+	font-size:12px;
+	line-height:17px;
+}
+	
+
+
+/* Flickr widget */
+.flickrImages a {
+	width:69px;
+	height:69px;
+}
+
+/*----------------------------------------
+				 Post
+---------------------------------------- */
+.featured-thumbnail.large{
+	width:100%;
+	height:auto;
+}
+.featured-thumbnail{
+	width:220px;
+	height:auto;
+}
+
+/* Images */
+.frame.alignleft,
+.frame.alignright,
+.frame.alignnone {
+	margin-right:20px;
+	width:50%;
+}
+	
+/* SlidesJS */
+.slides_container {
+	width:420px;
+}
+.slides_container .item {
+	width:420px;
+	height:250px;
+}
+.slides_container .item .thumbnail img {
+	width:100%;
+	height:auto;
+	}
+
+/* Comments */
+.author-comment{
+	float:left;
+	display: inline-block;
+}
+.comment-meta {
+	float: right; 
+	display:inline-block;
+}
+.reply {
+	float: right;
+	display:inline-block;
+	margin-left: 21px;
+}
+
+
+/* Post Formats
+---------------------------------------- */
+
+/* Image Post Format */
+
+
+/* Gallery Post Format */
+.slides_container_gallery {
+	width:420px;
+	height:200px;
+	}
+	.slides_container_gallery .g_item {
+		width:420px;
+		}
+
+/* Audio Format Type */
+.audiojs .scrubber {
+	width:248px;
+	}
+	
+/*----------------------------------------
+				Portfolio
+---------------------------------------- */
+/* Default layout 3 columns */
+#gallery .portfolio li {
+	width:420px;
+	margin:0 0px 30px 0;
+	float:none;
+}
+	#gallery .portfolio li a.image-wrap {
+		width:420px;
+		height:238px;
+	}
+		#gallery .portfolio li a.image-wrap img {
+			width:100%;
+			height:auto;
+		}
+/* 1 column portfolio*/
+#gallery.one_column .portfolio li {
+	width:420px;
+	margin:0 0px 30px 0;
+	float:none;
+}
+#gallery.one_column .portfolio li a.image-wrap {
+	width:420px;
+	height:233px;
+	float:none;
+	margin-left:0px;
+}
+
+
+/* 2 columns portfolio*/
+#gallery.two_columns .portfolio li {
+	width:420px;
+	margin:0 0 30px 0;
+	float:none;
+}
+	#gallery.two_columns .portfolio li a.image-wrap {
+		width:420px;
+		height:237px;
+	}
+	
+/* 4 columns portfolio*/
+#gallery.four_columns .portfolio li {
+	width:200px;
+	margin:0 8px 30px 0;
+	float:none;
+}
+	#gallery.four_columns .portfolio li a.image-wrap {
+		width:200px;
+		height:118px;
+	}
+
+/*---------------------------------------
+				 404
+---------------------------------------- */
+.error404-num {font-size:200px;}	
+	
+	
+/*----------------------------------------
+				Sidebar
+---------------------------------------- */
+#searchform .searching {width:310px;}
+
+}

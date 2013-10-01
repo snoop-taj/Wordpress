@@ -1,0 +1,405 @@
+/*  #Mobile (Portrait)
+================================================== */
+/* Note: Design for a width of 320px */
+
+@media only screen and (max-width: 767px) {
+
+.content-box {max-width:340px;}
+
+/*----------------------------------------
+				Slider
+---------------------------------------- */
+#slider-wrapper {height:244px;}
+.camera_caption > div h2, 
+.camera_caption > div h3, 
+.camera_caption > div h6, 
+.camera_caption > div p {display:none;}
+
+.camera_wrap .camera_pag {bottom:75px; left:25px;}
+.camera_caption > div {
+	padding: 62px 0px 0px 25px;
+	width:200px;
+}
+	
+/*----------------------------------------
+			Navigations
+---------------------------------------- */
+
+/* Primary navigation */
+nav.primary {
+	clear:both;
+	width:100%;
+	margin:0;
+	text-align:center;
+	padding:13px 0;
+}
+.sf-menu {display:none;}
+
+/* Logo */
+.logo {padding:0;}
+.logo img{
+	width:170px;
+	height:auto;
+}
+.logo h1,
+.logo h2 {
+	font-size:21px;
+	line-height:24px!important;
+}
+
+	
+/*----------------------------------------
+			Top search
+---------------------------------------- */
+.bg-form {width:128px;}
+#top-search .input-search {width:102px;}
+
+/*----------------------------------------
+			Widget Header
+---------------------------------------- */
+#widget-header {
+	position:absolute;
+	top:43px;
+	left:0px;
+}
+.widget-header ul li {
+	margin:0 0px 0 8px;
+	font-size:11px;
+	line-height:17px;
+}
+	.widget-header ul li:first-child {margin:0 0 0 1px;}
+	
+	.widget-header ul li a {
+		font-size:11px;
+		line-height:17px;
+	}
+
+/*----------------------------------------
+			Request a quote
+---------------------------------------- */
+.top-box {margin-bottom:70px;}
+
+/*----------------------------------------
+			Top Content
+---------------------------------------- */
+.top-content {
+	padding:22px 10px 3px 10px; 
+	margin:4px 0 20px 0;
+}
+
+/*---------------------------------------- 
+				Price List
+---------------------------------------- */
+.price-list ul {padding:9px 0px 0 0; margin:0;}		
+
+/* Flickr widget */
+.flickrImages a {
+	width:49px;
+	height:49px;
+}
+
+
+
+/*----------------------------------------
+				 Post
+---------------------------------------- */
+.single .post-holder {padding:0 0px 0 0;}
+
+.featured-thumbnail, 
+.featured-thumbnail img {
+	width:100%;
+	height:auto;
+}
+	.sidebar-latestpost  li  .featured-thumbnail{
+		width:58px;
+		height:58px;
+	}
+	
+	.latestpost  li  .featured-thumbnail{
+		width:95px;
+		height:95px;
+	}
+	
+	.single-post.services .featured-thumbnail {
+		width:45px;
+		height:52px;
+	}
+
+
+
+
+/* Comments */
+
+#commentform input[type="text"],
+#commentform textarea {
+	width:100%;
+}
+
+/* Comment Form */
+.commentlist ul.children {margin-left:0;}
+
+.commentlist {padding:0 0px 30px 0px;}
+.comment-meta, .author-comment {float:left; display:block;}
+.reply {
+	float:right;
+	margin:0;
+	display:block;
+}
+
+
+/*----------------------------------------
+			Recent Post Team
+---------------------------------------- */
+.recent-posts.team li {
+	float:none;
+	width:auto;
+	margin:0 0 30px 0;
+}
+	.recent-posts.team li .featured-thumbnail {
+		width:130px;
+		height:auto;
+		overflow:hidden;
+		float:left;
+		margin:5px 15px 0 0;
+	}
+		.recent-posts.team li .featured-thumbnail img {
+			width:100%;
+			height:auto;
+		}
+
+/* Services */
+.recent-posts.services li {
+	float:none;
+	width:100%;
+	margin:0 0 30px 0;
+	}
+
+/*---------------------------------------
+				 404
+---------------------------------------- */
+.error404-num {font-size:170px;}
+
+/*----------------------------------------
+				Testimonials
+---------------------------------------- */
+article.testimonial, .single article.testimonial  {
+	padding:15px 10px 20px 130px;
+	background-position:115px 12px;
+}
+article.testimonial .featured-thumbnail, .single article.testimonial .featured-thumbnail  {
+	width:100px;
+	height:100px;
+	left:10px;
+	top:20px;
+}
+
+/* Images */
+.frame.alignleft,
+.frame.alignright,
+.frame.alignnone {
+	margin-right:0;
+	width:100%;
+}
+.frame.alignleft img,
+.frame.alignright img,
+.frame.alignnone img	{
+	width:100%;
+	height:auto;
+}
+.alignleft {
+	float:left;
+	margin:0 0px 20px 0px;
+}	
+
+/* Related Posts */
+.related-posts li {
+	width:auto;
+	float:none;
+	margin:0 0 .5em 0;
+	}
+.related-posts li:first-child {
+	margin-left:0;
+	}
+.related-posts li .featured-thumbnail {
+	display:none;
+	}
+
+
+/* SlidesJS */
+.slides_container {
+	width:300px;
+}
+.slides_container .item {
+	width:300px;
+	height:250px;
+}
+.slides_container .item .thumbnail img {
+	width:100%;
+	height:auto;
+	}
+
+
+/* Address */
+.address dt {
+	width:auto;
+	margin:0 0 20px 0;
+	padding:0 0 0 55px;
+	font-size:12px;
+	float:none;
+	}
+.address dd {
+	float:none;
+	width:auto;
+	padding:0 0 0 43px;
+	margin:0 0 20px 0;
+	}
+	.address dd span {
+		width:100px;
+		}
+
+			
+
+/*----------------------------------------
+				Portfolio
+---------------------------------------- */
+/* Default layout 3 columns */
+#gallery .portfolio li {
+	width:300px;
+	margin:0 0px 30px 0;
+	float:none;
+}
+	#gallery .portfolio li a.image-wrap {
+		width:300px;
+		height:170px;
+	}
+		#gallery .portfolio li a.image-wrap img {
+			width:100%;
+			height:auto;
+		}
+/* 1 column portfolio*/
+#gallery.one_column .portfolio li {
+	width:300px;
+	margin:0 0px 30px 0;
+	float:none;
+}
+#gallery.one_column .portfolio li a.image-wrap {
+	width:300px;
+	height:167px;
+	float:none;
+	margin-left:0px;
+	margin-bottom:20px;
+}
+
+
+
+/* 2 columns portfolio*/
+#gallery.two_columns .portfolio li {
+	width:300px;
+	margin:0 0 30px 0;
+	float:none;
+}
+	#gallery.two_columns .portfolio li a.image-wrap {
+		width:300px;
+		height:169px;
+	}
+	
+/* 4 columns portfolio*/
+#gallery.four_columns .portfolio li {
+	width:300px;
+	margin:0 0 30px 0;
+	float:none;
+}
+	#gallery.four_columns .portfolio li a.image-wrap {
+		width:300px;
+		height:178px;
+	}
+
+/* Carousel */
+.es-carousel ul li h4 {
+	display:none;
+	}
+.es-carousel ul li .excerpt {
+	display:none;
+	}
+.es-carousel ul li .link {
+	display:none;
+	}	
+
+.post_list .featured-thumbnail {
+	float:left;
+	margin:0 20px 0 0;
+	}
+
+.latestpost .featured-thumbnail {
+	float:left;
+	margin:0 20px 0 0;
+	}
+
+
+/* Post Formats
+---------------------------------------- */
+
+/* Image Post Format */
+.image-post-format img {
+	width:100%;
+	overflow:hidden;
+	}
+
+/* Gallery Post Format */
+.slides_container_gallery {
+	width:300px;
+	height:150px;
+	}
+	.slides_container_gallery .g_item {
+		width:300px;
+		}	
+
+/* Audio Format Type */
+.audiojs .scrubber {
+	width:130px;
+	}
+
+	
+	
+/* Google Map */
+.google-map {
+	position: relative;
+	padding-bottom: 46.25%;
+	height: 0;
+	overflow: hidden;
+	margin:0 0 2% 0;
+}
+.google-map iframe,  
+.google-map object,  
+.google-map embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+		
+	
+/*----------------------------------------
+				Footer
+---------------------------------------- */
+nav.footer {
+	float:none;
+	text-align:center;
+	padding:0 0 10px 0;
+}
+	nav.footer ul li {
+		float:none;
+		display:inline-block;
+		margin:0 0px 0 6px;
+	}
+		nav.footer ul li:first-child {margin:0;}
+		
+#footer-text {
+	width:auto;
+	float:none;
+	text-align:center;
+}
+	#widget-footer > div:first-child {width:60%; margin-right:25px;}
+		.vcard .adr, .vcard .tel, .vcard .email {margin-left:0px; padding-left:40px; margin-bottom:5px;}
+}
